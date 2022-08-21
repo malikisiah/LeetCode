@@ -1,2 +1,2 @@
 # LeetCode
-Private repo with all completed LeetCode coding solutinos
+Personal repo with all completed LeetCode coding solutions and explainations
