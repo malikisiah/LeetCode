@@ -23,7 +23,7 @@ int main()
     printf("Output: ");
     for (int x : number)
     {
-        printf("%d", x);
+        cout << x;
     }
 }
 
