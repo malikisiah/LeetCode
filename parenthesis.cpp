@@ -7,9 +7,9 @@ bool isValid(string s);
 
 int main()
 {
-    string s = "()[]{}";
+    string s = "()";
 
-    isValid(s);
+    cout << isValid(s) << endl;
 }
 
 bool isValid(string s)
@@ -49,6 +49,10 @@ bool isValid(string s)
             }
             stack.pop();
             break;
+        }
+
+        if (stack.empty()){
+            return false;
         }
     }
 
