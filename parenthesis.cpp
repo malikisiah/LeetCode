@@ -24,6 +24,10 @@ bool isValid(string s)
             stack.push(s[i]);
         }
 
+        if (stack.empty()){
+            return false;
+        }
+
         switch (s[i])
         {
         case ')':
