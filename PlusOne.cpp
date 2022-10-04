@@ -8,7 +8,7 @@ vector<int> plusOne(vector<int> &digits);
 
 int main()
 {
-    vector<int> number{9, 9, 9};
+    vector<int> number{5, 6, 7};
 
     printf("Input: ");
     for (int x : number)
