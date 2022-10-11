@@ -5,8 +5,7 @@ vector<int> topKFrequent(vector<int> &nums, int k);
 
 int main()
 {
-    vector<int> nums = {4,1,-1,2,-1,2,3};
-
+    vector<int> nums = {4, 1, -1, 2, -1, 2, 3};
 
     topKFrequent(nums, 2);
 }
@@ -30,10 +29,11 @@ vector<int> topKFrequent(vector<int> &nums, int k)
         }
     }
 
-    vector <int> result;
+    vector<int> result;
 
-    while (!pq.empty()){
-        result.push_back(pq.top().second );
+    while (!pq.empty())
+    {
+        result.push_back(pq.top().second);
         pq.pop();
     }
 
