@@ -1,3 +1,4 @@
+package Intervals;
 public class Interval {
     int start, end;
 
