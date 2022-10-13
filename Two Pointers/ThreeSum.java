@@ -3,7 +3,7 @@ import java.util.*;
 public class ThreeSum {
     public static List<List<Integer>> threeSum(int[] nums) {
         int n = nums.length;
-        LinkedList<List<Integer>> list = new LinkedList<>();
+        List<List<Integer>> list = new ArrayList<>();
         Arrays.sort(nums);
 
         for (int x = 0; x < n - 2; x++) {
