@@ -17,9 +17,9 @@ bool hasCycle(TreeNode *root, string &result);
 
 int main()
 {
-    unordered_map<char, TreeNode *> map;
 
-    string input = "(A,B) (A,C) (B,C) (B,D)";
+    string input;
+    getline(cin, input);
     string result = "";
 
     TreeNode *node = constructTree(input, result);
