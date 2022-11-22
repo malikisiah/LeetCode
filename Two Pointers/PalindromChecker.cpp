@@ -5,15 +5,7 @@
 #include <cwctype>
 using namespace std;
 
-bool isPalindrom(string s);
-
-int main()
-{
-
-    cout << isPalindrom("A man,  a plan,  a canal: Panama");
-}
-
-bool isPalindrom(string s)
+bool isPalindrome(string s)
 {
     string str = "";
 
@@ -21,19 +13,18 @@ bool isPalindrom(string s)
     {
         if (iswalnum(s[i]) != 0)
         {
-            str += s[i];
+            str += toupper(s[i]);
         }
     }
 
-    transform(str.begin(), str.end(), str.begin(), ::toupper);
+    string temp = str;
 
-    for (int i = 0, j = str.size() - 1; i < j; i++, j--)
+    reverse(str.begin(), str.end());
+
+    if (temp == str)
     {
-        if (str[i] != str[j])
-        {
-            return false;
-        }
+        return true;
     }
 
-    return true;
+    return false;
 }
