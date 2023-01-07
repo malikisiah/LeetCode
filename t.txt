@@ -1,3 +1,0 @@
-WINEPREFIX="/home/malik/Games/Heroic/Prefixes/KINGDOM HEARTS III  Re Mind/pfx/" PROTON="/home/deck/.steam/steam/compatibilitytools.d/GE-Proton7-35" ./mf-install.sh -proton
-
-/home/malik/Games/Heroic/Prefixes/KINGDOM HEARTS III  Re Mind
