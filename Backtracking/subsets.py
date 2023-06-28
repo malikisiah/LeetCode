@@ -22,9 +22,3 @@ class Solution:
         dfs(0)
 
         return res
-
-
-nums = [1, 2, 3]
-main = Solution()
-
-main.subsets(nums)
